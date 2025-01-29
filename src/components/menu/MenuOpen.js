@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { MenuOptionIcon } from "./MenuOptionIcon";
 import { MenuOptionTitle } from "./MenuOptionTitle";
 
@@ -9,13 +10,17 @@ export const MenuOpen = () => {
         <MenuOptionIcon imageUrl={"images/fn-profile.png"} />
       </div>
       <div className="menu-open-option">
+        <Link href="/contacts">
+          <MenuOptionTitle label="Contacts" id="special" />
+        </Link>
+
+        <MenuOptionIcon imageUrl={"images/fn-group.png"} />
+      </div>
+      <div className="menu-open-option">
         <MenuOptionTitle label="Notifications" id="special" />
         <MenuOptionIcon imageUrl={"images/fn-notification.png"} />
       </div>
-      <div className="menu-open-option">
-        <MenuOptionTitle label="Groups &amp; Data" id="special" />
-        <MenuOptionIcon imageUrl={"images/fn-group.png"} />
-      </div>
+
       <div className="menu-open-option">
         <MenuOptionTitle label="Pinned messages" id="special" />
         <MenuOptionIcon imageUrl={"images/fn-pin.png"} />
@@ -35,14 +40,3 @@ export const MenuOpen = () => {
     </div>
   );
 };
-
-// import { MenuOptionTitle } from "./MenuOptionTitle";
-
-// export const MenuOpen = () => {
-//   return (
-//     <div className="menu-open-option">
-//       <MenuOptionTitle label="chats" />
-//       <div className="menu-open-option-icon"></div>
-//     </div>
-//   );
-// };

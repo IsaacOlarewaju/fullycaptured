@@ -3,6 +3,7 @@ import { ReduceBrowserSize } from "@/components/dashboard/ReduceBrowserSize";
 import { InputContainer } from "@/components/shared/InputContainer";
 
 export default function WriteNew() {
+  console.clear();
   return (
     <div>
       <ReduceBrowserSize />

@@ -23,13 +23,3 @@ export const BurgerMenu = () => {
     </div>
   );
 };
-
-// export const BurgerMenu = () => {
-//   return (
-//     <div className="dashboard-burger-line-button">
-//       <div className="dashboard-burger-line"></div>
-//       <div className="dashboard-burger-line"></div>
-//       <div className="dashboard-burger-line"></div>
-//     </div>
-//   );
-// };

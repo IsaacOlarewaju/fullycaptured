@@ -616,6 +616,7 @@ a {
     padding: 12px;
     border-radius: 20px;
     color: white;
+    border: none;
 }
 
 .dasboard-article-info-container{
@@ -856,4 +857,40 @@ h2 {
         height: 52px;
         border-radius: 50px;
         margin-right: 20px;
+  }
+
+
+  .contacts-container {
+    padding-top: 125px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts-container-inner {
+    width: 85%;    
+  }
+
+  .contacts-container-inner p {
+    color: rgb(157, 157, 157); 
+    font-size: 10pt;
+    display: block;
+    padding-bottom: 12px;
+  }
+
+  .contacts-container-inner a {
+    color: rgb(110, 125, 219); 
+    font-size: 10pt;
+    display: block;
+    padding-bottom: 10px;
+    text-decoration: underline;
+  }
+
+  .contact-article {
+    padding-bottom: 35px;
+  }
+
+  .quote {
+    font-style: italic;
   }
